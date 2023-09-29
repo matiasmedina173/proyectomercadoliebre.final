@@ -1,6 +1,10 @@
-.custom-search {
+.search-base {
   border: 2px solid $black;
   border-radius: 25px;
+}
+
+.custom-search {
+  @extend .search-base;
 }
 
 .custom-search input[type="search"] {
@@ -10,18 +14,22 @@
   font-size: 16px;
 }
 
+.card-base {
+  margin-bottom: 10%;
+  border: solid;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  .btn {
+    background-color: $secondaryColor;
+  }
+}
+
 .productoss {
   margin-top: 5%;
-
   .card {
-    margin-bottom: 10%;
-    border: solid;
-    &:hover {
-      transform: scale(1.1);
-    }
-    .btn {
-      background-color: $secondaryColor;
-    }
+    @extend .card-base;
   }
 }
 
