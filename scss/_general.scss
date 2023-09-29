@@ -1,0 +1,65 @@
+* {
+  font-family: $mainFont;
+}
+#menu {
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .navbar-nav {
+    .nav-link {
+      color: $secondaryColor;
+      margin-right: 20px;
+    }
+  }
+
+  .navbar-toggler {
+    .navbar-toggler[aria-expanded="true"] &-icon {
+      background-color: $mainColor;
+    }
+    .navbar-toggler[aria-expanded="false"] &-icon {
+      background-color: $mainColor;
+    }
+  }
+}
+header {
+  background-color: $secondaryColor;
+  color: $mainColor;
+  padding: 15px 0;
+}
+body {
+  background-color: $white;
+}
+#MercadoLiebre {
+  text-align: center;
+  margin-top: 10%;
+  .quienes {
+    font-size: 400%;
+  }
+  .presentacion {
+    font-size: 130%;
+    margin-top: 5%;
+  }
+  .pedi {
+    font-size: 200%;
+    margin-top: 10%;
+    font-family: $secondaryFont;
+    font-weight: bold;
+  }
+}
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+
+  .formulario {
+    margin-top: 10%;
+    @include boton-estilo;
+  }
+}
+
+.pie {
+  margin-top: 10%;
+}

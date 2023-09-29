@@ -1,0 +1,8 @@
+@mixin boton-estilo {
+  background-color: $secondaryColor;
+  color: $mainColor;
+  border: solid $black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

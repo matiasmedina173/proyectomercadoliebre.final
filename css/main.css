@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#menu .navbar-brand {
+  font-size: 24px;
+}
+#menu .navbar-nav .nav-link {
+  color: #333;
+  margin-right: 20px;
+}
+.navbar-toggler[aria-expanded=true] #menu .navbar-toggler-icon {
+  background-color: #fff;
+}
+.navbar-toggler[aria-expanded=false] #menu .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+body {
+  background-color: rgb(241, 236, 236);
+}
+
+#MercadoLiebre {
+  text-align: center;
+  margin-top: 10%;
+}
+#MercadoLiebre .quienes {
+  font-size: 400%;
+}
+#MercadoLiebre .presentacion {
+  font-size: 130%;
+  margin-top: 5%;
+}
+#MercadoLiebre .pedi {
+  font-size: 200%;
+  margin-top: 10%;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.gridPadre .formulario {
+  margin-top: 10%;
+  background-color: #333;
+  color: #fff;
+  border: solid rgb(8, 8, 8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pie {
+  margin-top: 10%;
+}
+
+.fondoImg {
+  background-image: url(../img/fondodepagina4.jpg);
+}
+.fondoImg #contactForm {
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.fondoImg #contactForm .form-group {
+  margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  border: solid rgb(8, 8, 8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fondoImg .contact {
+  color: #fff;
+}
+
+.redes {
+  text-align: center;
+}
+.redes:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.custom-search {
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 25px;
+}
+
+.custom-search input[type=search] {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.productoss {
+  margin-top: 5%;
+}
+.productoss .card {
+  margin-bottom: 10%;
+  border: solid;
+}
+.productoss .card:hover {
+  transform: scale(1.1);
+}
+.productoss .card .btn {
+  background-color: #333;
+}
+
+.page-link {
+  color: rgb(8, 8, 8);
+}
+
+/*# sourceMappingURL=main.css.map */

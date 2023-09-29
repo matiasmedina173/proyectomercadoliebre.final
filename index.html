@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre - Tu Supermercado en Línea</title>
+    <meta name="description" content="Bienvenido a Mercado Liebre, tu supermercado en línea con una amplia variedad de productos de calidad y entrega rápida. ¡Compra tus productos de supermercado desde la comodidad de tu hogar!" />
+    <meta name="keywords" content="Mercado Liebre, supermercado en línea, productos de supermercado, entrega rápida, compras en línea" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/liebre-logo.ico">
+
+  </head>
+  <body class="container-fluid bg-white">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><strong>MercadoLiebre</strong></a>
+              <!-- Botón de hamburguesa para pantallas pequeñas -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Enlaces de navegación -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="html/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="html/ofertas.html">Ofertas</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="html/sucursales.html">Sucursales</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="html/contacto.html">Contacto</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+    <section class="carousel">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/carouselimg1.webp"
+              class="d-block w-100"
+              alt="promocion1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/carouselimg2.webp"
+              class="d-block w-100"
+              alt="promocion2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/carouselimg3.webp"
+              class="d-block w-100"
+              alt="promocion3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="MercadoLiebre">
+      <h1 class="quienes">¿Quienes Somos?</h1>
+      <p class="presentacion">
+        En <strong>MercadoLiebre</strong>, estamos dedicados a ofrecerte una experiencia de compra de supermercado en línea excepcional. Sabemos lo ocupada que puede ser la vida cotidiana, por lo que hemos creado esta plataforma para hacerte la vida más fácil y ahorrarte tiempo valioso.
+En nuestra tienda, encontrarás una amplia variedad de productos de supermercado cuidadosamente seleccionados para satisfacer todas tus necesidades y preferencias. Desde productos frescos y saludables, hasta comestibles básicos, snacks deliciosos y productos de limpieza, tenemos todo lo que necesitas al alcance de tu mano.
+Lo mejor de todo es que puedes navegar y hacer tus compras desde la comodidad de tu hogar, oficina o cualquier lugar que desees. Simplemente agrega los productos que necesitas a tu carrito de compras y finaliza tu pedido en unos pocos clics. Nos encargaremos de entregarte tus productos de manera rápida y segura en tu puerta.
+Nuestro compromiso es brindarte productos de alta calidad, precios competitivos y un servicio al cliente excepcional. Estamos aquí para ayudarte en cada paso del camino y asegurarnos de que tengas una experiencia de compra sin complicaciones.
+Gracias por confiar en nosotros para tus compras de supermercado en línea. ¡Esperamos que disfrutes de tu experiencia de compra con nosotros y que siempre encuentres lo que necesitas en <strong>MercadoLiebre</strong>!
+      </p>
+      <h1 class="pedi">Pedi Tu LiebreCard</h1>
+    </section>
+    <section class="gridPadre">
+      <div>
+        <img
+          src="img/imgtarjetaliebre2.jpeg"
+          class="img-fluid w-100"
+          alt="tarjeta LiebreCard"
+        />
+      </div>
+      <div class="formulario">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="Nombre" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="Nombre" />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección 1</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Calle Principal"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Dirección 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Departamento, piso.."
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Buenos Aires</option>
+              <option>CABA</option>
+              <option>Catamarca</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Cordoba</option>
+              <option>Corrientes</option>
+              <option>Entre Rios</option>
+              <option>Formosa</option>
+              <option>Jujuy</option>
+              <option>La Pampa</option>
+              <option>La Rioja</option>
+              <option>Mendoza</option>
+              <option>Misiones</option>
+              <option>Neuquen</option>
+              <option>Rio Negro</option>
+              <option>Salta</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Santa Cruz</option>
+              <option>Santa Fe</option>
+              <option>Santiago del Estero</option>
+              <option>
+                Tierra del Fuego, Antartida e Islas del Atlantico Sur
+              </option>
+              <option>Tucuman</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">CP</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                He leido y acepto los terminos y condiciones.
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Pedir Tarjeta</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="container pie">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">        
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; Mercado Liebre.</span
+          >
+        </div>
+      </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

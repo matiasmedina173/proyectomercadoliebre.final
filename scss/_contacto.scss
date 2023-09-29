@@ -1,0 +1,25 @@
+.fondoImg {
+  background-image: url(../img/fondodepagina4.jpg);
+
+  #contactForm {
+    color: $secondaryColor;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .form-group {
+      margin-bottom: 20px;
+      @include boton-estilo;
+    }
+  }
+  .contact {
+    color: $mainColor;
+  }
+}
+.redes {
+  text-align: center;
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+}
