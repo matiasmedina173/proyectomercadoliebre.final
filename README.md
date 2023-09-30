@@ -1,4 +1,4 @@
-# proyectomercadoliebre.final
+# Proyecto MercadoLiebre🐇
 MERCADO LIEBRE 
 MercadoLiebre es una innovadora y dinámica empresa dedicada a la venta de una amplia variedad de mercadería. Nuestra misión es ofrecer a nuestros clientes una experiencia de compra excepcional, brindando productos de alta calidad y un servicio al cliente de primera categoría.
 
@@ -8,7 +8,7 @@ Valoramos la confianza que nuestros clientes depositan en nosotros y nos esforza
 
 ¡En MercadoLiebre, estamos comprometidos con su satisfacción y deseamos ser su destino preferido para todas sus necesidades de compra en línea!
 
-Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 HTML5
 CSS3
 SASS
@@ -16,9 +16,24 @@ Node.js
 Bootstrap
 AOS Animations
 
-Controlador de Versiones:
+# Controlador de Versiones:
 Git
 GitHub
 
-Herramienta de Desarrollo:
+# Herramienta de Desarrollo:
 Visual Studio Code
+
+
+# Clonar el Proyecto🐇🐇:
+
+# paso1:
+Puedes utilizar el siguiente comando: "git clone https://github.com/matiasmedina173/proyectomercadoliebre.final"
+
+# paso2:
+Reinstalar las Dependencias con el comando "npm install"
+
+# paso3:
+Iniciar SASS con el comando "npm run sass:watch"
+
+# paso4:
+Disfruta del Proyecto MercadoLiebre realizandole los cambios a gusto
